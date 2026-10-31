@@ -1,5 +1,5 @@
 ---
-title: Dustin — applied AI engineer
+title: Dustin Ingersoll — applied AI engineer
 description: Applied AI engineer building retrieval systems, agents and a self-play card engine — and measuring them honestly.
 ---
 

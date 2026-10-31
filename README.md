@@ -51,8 +51,9 @@ in a div (they nest). Raw HTML in content is escaped, not executed.
 
 ## Before this goes public
 
-- [ ] **Full name** — the site says "Dustin". Update `site/layout.mjs` (wordmark, `<title>`, colophon)
-      and `site/mark.svg` if the mark should change.
+- [x] **Full name** — Dustin Ingersoll, set 2026-10-30 in the wordmark and every `<title>`
+      (`site/layout.mjs`) and the home-page front matter. `site/assets/mark.svg` is an abstract mark,
+      not a monogram, so it needs no change.
 - [x] **Email** — `dustin.i.ingersoll@outlook.com`, set 2026-10-30 in `site/layout.mjs`, `content/about.md`
       and `content/index.md`. Change it in all three if it ever moves; `npm run build` picks up the rest.
 - [ ] **Location / remote preference** — deliberately absent, because it was a guess. Add one line to

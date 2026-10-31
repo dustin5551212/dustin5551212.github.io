@@ -12,7 +12,7 @@ const NAV = [
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
 
 export function page({ title, description, path, body, kicker = "", wide = false }) {
-  const fullTitle = title ? `${title} — Dustin` : "Dustin — applied AI engineer";
+  const fullTitle = title ? `${title} — Dustin Ingersoll` : "Dustin Ingersoll — applied AI engineer";
   const nav = NAV.map((item) => {
     const active =
       item.href === "/" ? path === "/" : path.startsWith(item.href.replace(/\/$/, ""));
@@ -43,7 +43,7 @@ export function page({ title, description, path, body, kicker = "", wide = false
     <a class="skip" href="#main">Skip to content</a>
 
     <header class="masthead">
-      <a class="wordmark" href="/">Dustin<span class="wordmark__mark">·</span><span class="wordmark__sub">applied AI</span></a>
+      <a class="wordmark" href="/">Dustin Ingersoll<span class="wordmark__mark">·</span><span class="wordmark__sub">applied AI</span></a>
       <nav class="nav" aria-label="Sections">
           ${nav}
       </nav>
