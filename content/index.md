@@ -88,5 +88,5 @@ could embarrass me, an agent that survives failure, and the game engine above th
 evening's project and became the baseline everything else has to beat.
 
 What I'm looking for: an applied AI engineering role where shipping and measuring are the same job.
-[More about me](/about.html), or [email me](mailto:dustin5551212@outlook.com).
+[More about me](/about.html), or [email me](mailto:dustin.i.ingersoll@outlook.com).
 :::

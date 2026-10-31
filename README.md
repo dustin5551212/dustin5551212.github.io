@@ -53,8 +53,8 @@ in a div (they nest). Raw HTML in content is escaped, not executed.
 
 - [ ] **Full name** — the site says "Dustin". Update `site/layout.mjs` (wordmark, `<title>`, colophon)
       and `site/mark.svg` if the mark should change.
-- [ ] **Email** — `dustin5551212@outlook.com` is in `site/layout.mjs` and `content/about.md`. Point it at
-      whatever address you actually want on a public page.
+- [x] **Email** — `dustin.i.ingersoll@outlook.com`, set 2026-10-30 in `site/layout.mjs`, `content/about.md`
+      and `content/index.md`. Change it in all three if it ever moves; `npm run build` picks up the rest.
 - [ ] **Location / remote preference** — deliberately absent, because it was a guess. Add one line to
       `content/about.md` if you want it.
 - [ ] **The demo link** — `http://malls-mpegs.tun.ply.gg:28879` appears in `content/index.md` and both

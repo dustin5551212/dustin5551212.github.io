@@ -57,7 +57,7 @@ ${kicker ? `      <p class="kicker">${kicker}</p>\n` : ""}${body}
       <div class="colophon__row">
         <span class="mono">Contact</span>
         <p>
-          <a href="mailto:dustin5551212@outlook.com">dustin5551212@outlook.com</a> ·
+          <a href="mailto:dustin.i.ingersoll@outlook.com">dustin.i.ingersoll@outlook.com</a> ·
           <a href="https://github.com/dustin5551212" rel="noopener" target="_blank">github.com/dustin5551212</a>
         </p>
       </div>

@@ -40,4 +40,4 @@ prototype and something you would let a user see.
 
 The fastest way to judge me is the two projects above; the fastest way to reach me is email.
 
-[Email](mailto:dustin5551212@outlook.com) · [GitHub](https://github.com/dustin5551212)
+[Email](mailto:dustin.i.ingersoll@outlook.com) · [GitHub](https://github.com/dustin5551212)
