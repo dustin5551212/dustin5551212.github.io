@@ -28,10 +28,10 @@ that opponent actually was. A game that plays well enough to keep four people at
 evening, built with no dependencies and no framework, was still just an opinion about its own strength.
 
 **Decision —** Publish the engine and keep the claims testable: a 45-card deck, a rules engine with
-legal-play enforcement, and 143 tests that run with `node --test`, no install step. Then measure the
+legal-play enforcement, and 180 tests that run with `node --test`, no install step. Then measure the
 CPU properly rather than quoting a win rate from a handful of games.
 
-**Measurement —** **143 tests, zero dependencies**, and a deal that renders in the browser from a
+**Measurement —** **180 tests, zero dependencies**, and a deal that renders in the browser from a
 40-line static server. The CPU turned out to be worth **+1.56 tricks a hand** over random play
 (95% CI +1.50 to +1.62, 2,000 paired deals) — a number, not a feeling about how it felt to lose.
 

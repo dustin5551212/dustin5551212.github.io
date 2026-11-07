@@ -1,6 +1,6 @@
 ---
 title: Professional 500
-description: A 45-card trick-taking game with a browser table, an invite-link lobby and a CPU opponent — no dependencies, 143 tests, running on a home server behind a tunnel.
+description: A 45-card trick-taking game with a browser table, an invite-link lobby and a CPU opponent — no dependencies, 180 tests, running on a home server behind a tunnel.
 role: Browser game
 year: 2026
 deck: Four seats, one link. The engine is plain JavaScript with no dependencies; the table is a single page; the CPU was the part that had to be measured before it could be bragged about.

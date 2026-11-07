@@ -28,7 +28,7 @@ performing on a happy path.
 
 | project | measurement |
 | --- | --- |
-| Professional 500 | 143 tests, 0 dependencies, 45-card deck, live over a self-hosted tunnel |
+| Professional 500 | 180 tests, 0 dependencies, 45-card deck, live over a self-hosted tunnel |
 | Five Hundred AI | +1.56 tricks/hand over random (95% CI +1.50 to +1.62) across 2,000 paired deals |
 | Benchmark harness | control matchup returns exactly +0.00; ~600 hands/second on one core |
 
