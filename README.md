@@ -3,6 +3,9 @@
 A static site: markdown in, HTML out, no framework, no dependencies. Built to do the job the
 [AI plan](~/Projects/ai-portfolio/PLAN.md) §5 asks for — public evidence with the measurement first.
 
+**Live:** <https://dustin5551212.github.io> — pushed to `main`, GitHub Actions runs `npm test`,
+`npm run build`, and deploys `dist/` to Pages. A red test suite never reaches the URL.
+
 ```sh
 npm test        # node --test site/*.test.mjs   (11 tests: the markdown renderer)
 npm run build   # content/ → dist/, and checks every internal link resolves
