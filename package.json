@@ -6,7 +6,7 @@
   "description": "Personal site: markdown in, static HTML out, no dependencies.",
   "scripts": {
     "build": "node build.mjs",
-    "test": "node --test site/",
+    "test": "node --test site/*.test.mjs",
     "serve": "node serve.mjs",
     "start": "node build.mjs && node serve.mjs"
   }

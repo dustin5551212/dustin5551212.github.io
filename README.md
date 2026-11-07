@@ -4,7 +4,7 @@ A static site: markdown in, HTML out, no framework, no dependencies. Built to do
 [AI plan](~/Projects/ai-portfolio/PLAN.md) §5 asks for — public evidence with the measurement first.
 
 ```sh
-npm test        # node --test site/   (11 tests: the markdown renderer)
+npm test        # node --test site/*.test.mjs   (11 tests: the markdown renderer)
 npm run build   # content/ → dist/, and checks every internal link resolves
 npm run serve   # http://localhost:4173
 npm start       # build, then serve
